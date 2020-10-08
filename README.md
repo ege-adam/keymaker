@@ -5,7 +5,7 @@ A new way for encryption
 ![icon](https://github.com/ccegeadamcc/keymaker/blob/main/icon.png?raw=true)
 
 
-When I was showering I had a scenario that I'm government's hacker in foreign a country. 
+When I was showering I had a scenario that I'm the government's hacker in foreign a country. 
 I had to use some kind of encryption. But if they catch me, they can torture me for password. The problem here is, I'm not a soldier, I can't stand the torture for a long time. 
 Or they can just brute-force it for years with the supercomputers.
 
