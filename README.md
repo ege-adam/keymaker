@@ -22,5 +22,7 @@ But if you open it with the relativetly complex password(7Mp5bacIC-&'2P$sE5UjWgR
 
 Usage:
  kmgn 'dummy_file_path' 'actual_file_path' 'dummy_password' 'actual_password' 'destination_folder_path' compresslevel(0-9)
+ 
+ 
 To get actual file:
  kmgn 'pathtofile'
