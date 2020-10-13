@@ -33,7 +33,7 @@ def getListOfFiles(dirName):
     return allFiles
 
 if(len(sys.argv) == 1):
-    print("\n Usage: \n kmgn 'dummy_folder' 'actual_folder' 'dummy_password' 'actual_password' 'destination_folder_path' compresslevel(0-9) \n Extract: \n kmgn 'pathtofile'")
+    print("\n Usage: \n kmgn 'dummy_file' 'actual_file' 'dummy_password' 'actual_password' 'destination_folder_path' compresslevel(0-9) \n Extract: \n kmgn 'pathtofile'")
 
 elif(len(sys.argv) == 7):
     print("\n working on...")
@@ -54,6 +54,9 @@ elif(len(sys.argv) == 7):
 
     fullhex = actualhex + dummyhex
     
+    os.remove(sys.argv[5] + "\\dummy.zip")
+    os.remove(sys.argv[5] + "\\actual.zip")
+
     f = open(sys.argv[5] + "\\result.zip", "wb")
     f.write(binascii.unhexlify(fullhex))
 
