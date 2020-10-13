@@ -15,7 +15,7 @@ If he opens a door with a specific key, that door leads to a different part of t
 
 The Keymaker program is basically the same idea.
 Here an example:
-"dummy.km" is a compressed zip file but It has two different passwords.
+"dummy.zip" is a compressed zip file but It has two different passwords.
 If you open it with the easy password (123123), It will extract few fake-government secrets.
 And brute-force programs probably find this password first. 
 But if you open it with the relativetly complex password(7Mp5bacIC-&'2P$sE5UjWgRQN5Jg.n;A), It will show the real government secrets.
